@@ -1,0 +1,61 @@
+{
+  "name": "4f2ae640-5c1e-4e36-9487-c5dad3a52211",
+  "displayName": "Quote Paint Job",
+  "goal": "Your goal is to ask user necessary questions in order to give user a quote for painting a room.",
+  "steps": [ {
+    "text": "Ask user to provide ZIP code"
+  }, {
+    "text": "Ask user to provide for room size"
+  }, {
+    "text": "Ask user to provide for current color, and the new color user wants."
+  }, {
+    "text": "Ask user to provide for number of windows."
+  }, {
+    "text": "Ask user how full the room is with furniture, on the scale of 0-100 (0 being the most empty)."
+  }, {
+    "text": "Repeat until you get all the information."
+  }, {
+    "text": "call ${TOOL:fb35bcd8-8db7-42d2-9d04-9b5681161760} to get a quote."
+  }, {
+    "text": "Tell user the estimated quote and the quote ID, and ask if he wants to be contacted for the job.",
+    "steps": [ {
+      "text": "If user wants to be contacted for the paint job,  ask for phone number and full address, then call ${TOOL:29be284a-1713-4a5b-be67-93c37c27fdc6}."
+    }, {
+      "text": "List the top 3 pros in this format: company name, contact person, and phone number using bullet points."
+    }, {
+      "text": "If pros list is returned, ask user if they want to be contacted by these pros."
+    } ]
+  }, {
+    "text": "If not, encourage user to ask any other home repair related questions, and direct user back to ${AGENT:dcc2f039-bdb7-41ff-94e6-5deb6d66abcd}"
+  } ],
+  "referencedPlaybooks": [ "projects/ninghai-srtt/locations/global/agents/5b35b236-a159-4f4b-a5e5-5189e70cd471/playbooks/dcc2f039-bdb7-41ff-94e6-5deb6d66abcd" ],
+  "referencedTools": [ "projects/ninghai-srtt/locations/global/agents/5b35b236-a159-4f4b-a5e5-5189e70cd471/tools/29be284a-1713-4a5b-be67-93c37c27fdc6", "projects/ninghai-srtt/locations/global/agents/5b35b236-a159-4f4b-a5e5-5189e70cd471/tools/fb35bcd8-8db7-42d2-9d04-9b5681161760" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Ask user to provide ZIP code"
+    }, {
+      "text": "Ask user to provide for room size"
+    }, {
+      "text": "Ask user to provide for current color, and the new color user wants."
+    }, {
+      "text": "Ask user to provide for number of windows."
+    }, {
+      "text": "Ask user how full the room is with furniture, on the scale of 0-100 (0 being the most empty)."
+    }, {
+      "text": "Repeat until you get all the information."
+    }, {
+      "text": "call ${TOOL:fb35bcd8-8db7-42d2-9d04-9b5681161760} to get a quote."
+    }, {
+      "text": "Tell user the estimated quote and the quote ID, and ask if he wants to be contacted for the job.",
+      "steps": [ {
+        "text": "If user wants to be contacted for the paint job,  ask for phone number and full address, then call ${TOOL:29be284a-1713-4a5b-be67-93c37c27fdc6}."
+      }, {
+        "text": "List the top 3 pros in this format: company name, contact person, and phone number using bullet points."
+      }, {
+        "text": "If pros list is returned, ask user if they want to be contacted by these pros."
+      } ]
+    }, {
+      "text": "If not, encourage user to ask any other home repair related questions, and direct user back to ${AGENT:dcc2f039-bdb7-41ff-94e6-5deb6d66abcd}"
+    } ]
+  }
+}

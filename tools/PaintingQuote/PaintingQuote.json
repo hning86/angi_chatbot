@@ -1,0 +1,9 @@
+{
+  "name": "fb35bcd8-8db7-42d2-9d04-9b5681161760",
+  "displayName": "PaintingQuote",
+  "description": "Call a function named painting_quote to return a quote for painting a room.",
+  "openApiSpec": {
+  
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

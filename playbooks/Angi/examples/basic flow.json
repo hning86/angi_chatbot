@@ -1,0 +1,92 @@
+{
+  "name": "6bc26e8e-883b-476c-a162-84a231236e8e",
+  "actions": [ {
+    "userUtterance": {
+      "text": "Hello"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi there! I'm Angie, your home repair assistant. How can I help you today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "How do I know I should replace my roof?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/ninghai-srtt/locations/global/agents/5b35b236-a159-4f4b-a5e5-5189e70cd471/tools/9792b83b-b670-46f4-9f3f-c309be1467d7",
+      "action": "angi_articles",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "How do I know I should replace my roof?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi. If you spot cracked patches, buckling shingles, or other damages, it's time for a repair.",
+          "snippets": [ {
+            "text": "Typically, shingle roofs last 20 to 25 years, while roofs installed over a layer of shingles usually need to be replaced after 20 years. Pro tip: Shingles should always lie flat—if you spot cracked patches, buckling shingles, or other damages, it's time for a repair. Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi.",
+            "title": "What Is the Best Time To Replace Your Roof?",
+            "uri": "https://storage.cloud.google.com/ninghai-srtt-bucket-02/angi_com_articles_html/when-best-time-install-roof.html#:~:text=Typically%252C%20shingle%20roofs,mold%20or%20fungi."
+          }, {
+            "text": "It’s a good idea to check your roof’s functionality from time to time, but problems aren’t always visible. Check the date of your current roof installation to see how much life it has left and figure out if you might need a new roof soon. Typically, shingle roofs last 20 to 25 years, while roofs installed over a layer of shingles usually need to be replaced after 20 years.  Pro tip: Shingles should always lie flat—if you spot cracked patches, buckling shingles, or other damages, it’s time for a repair.  Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi. Roof Replacement vs. Repair Considering the somewhat hefty cost of a roof replacement, you should carefully determine if your problems could be fixed with repairs before committing to a full-on replacement. Below are some scenarios in which it may be more logical to get your roof repaired than replaced: The damage is minor A replacement is not in your budget You need service with short notice",
+            "title": "What Is the Best Time To Replace Your Roof?",
+            "uri": "https://storage.cloud.google.com/ninghai-srtt-bucket-02/angi_com_articles_html/when-best-time-install-roof.html#:~:text=It%E2%80%99s%20a%20good,with%20short%20notice"
+          }, {
+            "text": "There are several telltale signs that may indicate your roof needs to be replaced. These include leaks, sagging, extensive wind damage, cracked shingles, and ice dams. Should you replace your roof before selling your home?",
+            "title": "Does a New Roof Increase Home Value?",
+            "uri": "https://storage.cloud.google.com/ninghai-srtt-bucket-02/angi_com_articles_html/does-new-roof-increase-home-value.html#:~:text=There%20are%20several,selling%20your%20home%3F"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "How do I know I should replace my roof?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi. If you spot cracked patches, buckling shingles, or other damages, it's time for a repair.",
+          "snippets": [ {
+            "text": "Typically, shingle roofs last 20 to 25 years, while roofs installed over a layer of shingles usually need to be replaced after 20 years. Pro tip: Shingles should always lie flat—if you spot cracked patches, buckling shingles, or other damages, it's time for a repair. Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi.",
+            "title": "What Is the Best Time To Replace Your Roof?",
+            "uri": "https://storage.cloud.google.com/ninghai-srtt-bucket-02/angi_com_articles_html/when-best-time-install-roof.html#:~:text=Typically%252C%20shingle%20roofs,mold%20or%20fungi."
+          }, {
+            "text": "It’s a good idea to check your roof’s functionality from time to time, but problems aren’t always visible. Check the date of your current roof installation to see how much life it has left and figure out if you might need a new roof soon. Typically, shingle roofs last 20 to 25 years, while roofs installed over a layer of shingles usually need to be replaced after 20 years.  Pro tip: Shingles should always lie flat—if you spot cracked patches, buckling shingles, or other damages, it’s time for a repair.  Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi. Roof Replacement vs. Repair Considering the somewhat hefty cost of a roof replacement, you should carefully determine if your problems could be fixed with repairs before committing to a full-on replacement. Below are some scenarios in which it may be more logical to get your roof repaired than replaced: The damage is minor A replacement is not in your budget You need service with short notice",
+            "title": "What Is the Best Time To Replace Your Roof?",
+            "uri": "https://storage.cloud.google.com/ninghai-srtt-bucket-02/angi_com_articles_html/when-best-time-install-roof.html#:~:text=It%E2%80%99s%20a%20good,with%20short%20notice"
+          }, {
+            "text": "There are several telltale signs that may indicate your roof needs to be replaced. These include leaks, sagging, extensive wind damage, cracked shingles, and ice dams. Should you replace your roof before selling your home?",
+            "title": "Does a New Roof Increase Home Value?",
+            "uri": "https://storage.cloud.google.com/ninghai-srtt-bucket-02/angi_com_articles_html/does-new-roof-increase-home-value.html#:~:text=There%20are%20several,selling%20your%20home%3F"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here's what I found: Common reasons for replacements include leaky roofs, damaged shingles, and unwanted roof plants such as mold or fungi. If you spot cracked patches, buckling shingles, or other damages, it's time for a repair."
+    }
+  }, {
+    "userUtterance": {
+      "text": "I want to paint my room. Can you help me getting a quote?"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/ninghai-srtt/locations/global/agents/5b35b236-a159-4f4b-a5e5-5189e70cd471/playbooks/4f2ae640-5c1e-4e36-9487-c5dad3a52211",
+      "playbookInput": {
+        "precedingConversationSummary": "User wants to get a quote for painting the room."
+      },
+      "playbookOutput": {
+        "executionSummary": "Give a list of pros found."
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  } ],
+  "displayName": "basic flow",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "undetected"
+}

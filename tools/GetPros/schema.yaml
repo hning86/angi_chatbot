@@ -1,0 +1,53 @@
+openapi: 3.0.0
+info:
+  title: Simple Pets API
+  version: 1.0.0
+  description: >-
+    This is the OpenAPI specification of a sample Pet Service. It is intended to
+    illustrate how to declare your REST API as an OpenAPI Tool.
+servers:
+  - url: 'https://us-central1-ninghai-srtt.cloudfunctions.net'
+paths:
+  /GetPros:
+    post:
+      summary: Get a list of pros
+      operationId: getPros
+      requestBody:
+        description: Get a list of pros that can contact user for the paint job
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/pro_req'
+      responses:
+        '201':
+          description: Quote received
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/pro_resp'
+components:
+  schemas:
+    pro_resp:
+      type: object
+      required:
+        - name        
+      properties:
+        name:
+          type: string       
+    pro_req:
+      type: object
+      required:
+        - quote_id
+        - phone_number
+        - full_address        
+      properties:
+        zip:
+          type: string          
+        phone_number:
+          type: string          
+        quote_id:
+          type: integer
+          format: int64
+        full_address:
+          type: string       

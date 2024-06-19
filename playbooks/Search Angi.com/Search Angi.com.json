@@ -1,0 +1,14 @@
+{
+  "name": "dcc2f039-bdb7-41ff-94e6-5deb6d66abcd",
+  "displayName": "Search Angi.com",
+  "goal": "Help user find relevant information about home repair.",
+  "steps": [ {
+    "text": "Answer user's question using information from ${TOOL:9792b83b-b670-46f4-9f3f-c309be1467d7}."
+  } ],
+  "referencedTools": [ "projects/ninghai-srtt/locations/global/agents/5b35b236-a159-4f4b-a5e5-5189e70cd471/tools/9792b83b-b670-46f4-9f3f-c309be1467d7" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Answer user's question using information from ${TOOL:9792b83b-b670-46f4-9f3f-c309be1467d7}."
+    } ]
+  }
+}
